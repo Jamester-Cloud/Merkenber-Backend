@@ -5,7 +5,8 @@ const {indexController, postMessage, recieveMesagge} = require('../controller/in
 //Main route
 router.get('/', indexController);
 // Send message method
-router.post('/send-sms',postMessage)
+router.post('/send-sms',postMessage);
 //recieved a message
-router.post('/newSMS', recieveMesagge)
+router.post('/newSMS', recieveMesagge);
+
 module.exports=router;
